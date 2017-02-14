@@ -20,7 +20,7 @@ public class BinarySearchTree {
             this.left = null;
             this.right = null;
         }
-        int val ;
+        int val;
         TreeNode left;
         TreeNode right;
     }

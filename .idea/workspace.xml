@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructures/main/BinarySearchTree$TreeNode.class" afterPath="$PROJECT_DIR$/out/production/DataStructures/main/BinarySearchTree$TreeNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructures/main/BinarySearchTree.class" afterPath="$PROJECT_DIR$/out/production/DataStructures/main/BinarySearchTree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/main/BinarySearchTree.java" />
     </list>
     <ignored path="DataStructures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -615,7 +614,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487110636816</updated>
       <workItem from="1487110639902" duration="591000" />
-      <workItem from="1487111864174" duration="3311000" />
+      <workItem from="1487111864174" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="init&#10;">
       <created>1487111903530</created>
@@ -645,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487190925133</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated&#10;">
+      <created>1487192088223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487192088223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3902000" />
+    <option name="totallyTimeSpent" value="3910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="383" width="1920" height="1053" extended-state="6" />

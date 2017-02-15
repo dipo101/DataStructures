@@ -13,6 +13,7 @@ public class BinarySearchTree {
         node = generateTree(node, 50);
         System.out.println(node.val);
         System.out.println(size(node));
+        System.out.println();
         System.out.println(node);
         int val = new Random().nextInt(50);
         System.out.println(val+", "+contains(node, val));
@@ -34,12 +35,12 @@ public class BinarySearchTree {
                 if(this.left==null && this.right==null){
                 return this.val+" ";}
                 if(this.left==null){
-                    return this.val+", "+this.right.toString();
+                    return this.val+"\n"+this.right.toString();
                 }
-                return this.val+", "+this.left.toString();
+                return this.val+"\n"+this.left.toString();
             }
 
-            return this.left.toString() +", " +this.right.toString();
+            return this.val+"\n"+this.left.toString() +"\t" +this.right.toString();
         }
     }
     //root should not be null
@@ -92,5 +93,17 @@ public class BinarySearchTree {
             return 0;
         }
         return 1+size(root.left)+size(root.right);
+    }
+    static boolean checkBST(TreeNode root){
+        if(root==null){
+            return true;
+        }
+        return checkBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+    static boolean checkBST(TreeNode root, int min, int max){
+        if(root==null){
+            return true;
+        }
+        return root.val<=max && root.val>min && checkBST(root.left, min, root.val) && checkBST(root, root.val, max);
     }
 }
